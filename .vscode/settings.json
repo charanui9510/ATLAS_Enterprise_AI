@@ -1,5 +1,6 @@
 {
-    "python.terminal.useEnvFile": true,
+    "python-envs.defaultEnvManager": "ms-python.python:conda",
+    "python-envs.defaultPackageManager": "ms-python.python:conda",
     "sqltools.connections": [
         {
             "pgOptions": {
@@ -9,12 +10,13 @@
             },
             "ssh": "Disabled",
             "previewLimit": 50,
-            "server": "dpg-dc20htjl550s73fp4v1g-a.ohio-postgres.render.com",
+            "server": "dpg-dbhnqjbbc2fs73eveblg-a.oregon-postgres.render.com",
             "port": 5432,
             "driver": "PostgreSQL",
             "name": "Render PostgreSQL",
-            "database": "atlas_ai_07lv",
+            "database": "atlas_ai_xgsw",
             "username": "atlas_user"
         }
-    ]
+    ],
+    "python.terminal.useEnvFile": true
 }
